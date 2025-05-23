@@ -94,4 +94,17 @@ python train_puffin_stage1_newModel.py [index]     # New model
 ### 3. Process Models with Notebooks
 Launch and run the appropriate notebook
 
-
+### 4. Train Stage 2 Model
+Continue training with the Stage 2 training script:
+```bash
+python train_puffin_stage2.py             # Original model
+# or
+python train_puffin_stage2_newModel.py 
+```
+### 5. Evaluate the Model
+Finally, evaluate the model using the appropriate script:
+```bash
+python evaluate_stage2_model.py           # Original model
+# or
+python evaluate_stage2_newModel.py  
+```
