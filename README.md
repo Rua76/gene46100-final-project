@@ -88,7 +88,7 @@ conda activate puffin
 Run the Stage 1 training script:
 ```bash
 python train_puffin_stage1.py [index]          # Original model
- or
+# or
 python train_puffin_stage1_newModel.py [index]     # New model
 ```
 ### 3. Process Models with Notebooks
