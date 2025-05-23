@@ -17,7 +17,7 @@ This repository contains scripts and notebooks for training, evaluating, and com
   Trains the new Puffin model architecture (Stage 1).
 
 - `train_puffin_stage2.py`  
-  Trains the original Puffin model (Stage 2), typically for fine-tuning.
+  Trains the original Puffin model (Stage 2)
 
 - `train_puffin_stage2_newModel.py`  
   Trains the new Puffin model architecture (Stage 2).
@@ -52,13 +52,13 @@ This repository contains scripts and notebooks for training, evaluating, and com
 
 ### 🗃️ Evaluation Outputs & Logs
 
-- `puffin_eval_9motifs`  
-  Contains evaluation results for the old+new model across 9 motifs.
+- `puffin_eval_9motifs/`  
+  Contains evaluation results and plots for the old+new.
 
-- `puffin_eval_newModel`  
+- `puffin_eval_newModel/`  
   Contains evaluation results for the new model architecture.
 
-- `puffin_eval_log`  
+- `puffin_eval_log/`  
   Stores raw logs and metrics from evaluation runs.
 
 ---
@@ -73,7 +73,25 @@ This repository contains scripts and notebooks for training, evaluating, and com
 
 ---
 
-## 🚀 Usage
+## 🚀 Usage Guide
 
-To **train or evaluate models**, use the corresponding training or evaluation script. For visual exploration and metrics analysis, refer to the Jupyter notebooks and plot archives.
+### 1. 📦 Install Environment
+
+Use the provided `puffin.yml` file to create the conda environment:
+
+```bash
+conda env create -f puffin.yml
+conda activate puffin
+```
+
+### 2. Train Stage 1 Model
+Run the Stage 1 training script:
+```bash
+python train_puffin_stage1.py [index]          # Original model
+ or
+python train_puffin_stage1_newModel.py [index]     # New model
+```
+### 3. Process Models with Notebooks
+Launch and run the appropriate notebook
+
 
