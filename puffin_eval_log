@@ -1,0 +1,67 @@
+Loading data and model...
+Evaluating model...
+Calculating metrics...
+
+Evaluation Metrics:
+
+cage_plus:
+  Pearson r: 0.4103
+  R-squared: -1.6767
+  MSE: 0.0016
+
+encodecage_plus:
+  Pearson r: 0.3774
+  R-squared: -0.9565
+  MSE: 0.0018
+
+encoderampage_plus:
+  Pearson r: 0.3753
+  R-squared: -1.2509
+  MSE: 0.0023
+
+grocap_plus:
+  Pearson r: 0.4607
+  R-squared: -0.5271
+  MSE: 0.0075
+
+procap_plus:
+  Pearson r: 0.5578
+  R-squared: -0.9899
+  MSE: 0.0054
+
+procap_minus:
+  Pearson r: 0.5339
+  R-squared: -0.9193
+  MSE: 0.0049
+
+grocap_minus:
+  Pearson r: 0.4434
+  R-squared: -0.4870
+  MSE: 0.0068
+
+encoderampage_minus:
+  Pearson r: 0.3632
+  R-squared: -1.7762
+  MSE: 0.0017
+
+encodecage_minus:
+  Pearson r: 0.3709
+  R-squared: -1.6697
+  MSE: 0.0012
+
+cage_minus:
+  Pearson r: 0.4033
+  R-squared: -2.8743
+  MSE: 0.0012
+
+Plotting examples...
+Saved plot for cage_plus to plots/cage_plus_examples.png
+Saved plot for encodecage_plus to plots/encodecage_plus_examples.png
+Saved plot for encoderampage_plus to plots/encoderampage_plus_examples.png
+Saved plot for grocap_plus to plots/grocap_plus_examples.png
+Saved plot for procap_plus to plots/procap_plus_examples.png
+Saved plot for procap_minus to plots/procap_minus_examples.png
+Saved plot for grocap_minus to plots/grocap_minus_examples.png
+Saved plot for encoderampage_minus to plots/encoderampage_minus_examples.png
+Saved plot for encodecage_minus to plots/encodecage_minus_examples.png
+Saved plot for cage_minus to plots/cage_minus_examples.png

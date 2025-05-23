@@ -1,0 +1,79 @@
+/project2/yangili1/yhsz5566/mambaforge/envs/puffin/lib/python3.8/site-packages/numpy/lib/function_base.py:2854: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+/project2/yangili1/yhsz5566/mambaforge/envs/puffin/lib/python3.8/site-packages/numpy/lib/function_base.py:2855: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+/project2/yangili1/yhsz5566/mambaforge/envs/puffin/lib/python3.8/site-packages/numpy/lib/function_base.py:2854: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+/project2/yangili1/yhsz5566/mambaforge/envs/puffin/lib/python3.8/site-packages/numpy/lib/function_base.py:2855: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+/project2/yangili1/yhsz5566/mambaforge/envs/puffin/lib/python3.8/site-packages/numpy/lib/function_base.py:2854: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+/project2/yangili1/yhsz5566/mambaforge/envs/puffin/lib/python3.8/site-packages/numpy/lib/function_base.py:2855: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+Loading data and model...
+Evaluating model...
+Calculating metrics...
+
+Evaluation Metrics:
+
+cage_plus:
+  Pearson r: 0.0290
+  R-squared: -0.0054
+  MSE: 0.0006
+
+encodecage_plus:
+  Pearson r: 0.0623
+  R-squared: -0.0049
+  MSE: 0.0009
+
+encoderampage_plus:
+  Pearson r: 0.0678
+  R-squared: -0.0038
+  MSE: 0.0010
+
+grocap_plus:
+  Pearson r: 0.0934
+  R-squared: -0.0111
+  MSE: 0.0049
+
+procap_plus:
+  Pearson r: 0.0948
+  R-squared: -0.0290
+  MSE: 0.0028
+
+procap_minus:
+  Pearson r: 0.0847
+  R-squared: -0.0282
+  MSE: 0.0026
+
+grocap_minus:
+  Pearson r: nan
+  R-squared: -0.0105
+  MSE: 0.0046
+
+encoderampage_minus:
+  Pearson r: 0.0555
+  R-squared: -0.0018
+  MSE: 0.0006
+
+encodecage_minus:
+  Pearson r: nan
+  R-squared: -0.0026
+  MSE: 0.0005
+
+cage_minus:
+  Pearson r: nan
+  R-squared: -0.0031
+  MSE: 0.0003
+
+Plotting examples...
+Saved plot for cage_plus to plots/cage_plus_examples.png
+Saved plot for encodecage_plus to plots/encodecage_plus_examples.png
+Saved plot for encoderampage_plus to plots/encoderampage_plus_examples.png
+Saved plot for grocap_plus to plots/grocap_plus_examples.png
+Saved plot for procap_plus to plots/procap_plus_examples.png
+Saved plot for procap_minus to plots/procap_minus_examples.png
+Saved plot for grocap_minus to plots/grocap_minus_examples.png
+Saved plot for encoderampage_minus to plots/encoderampage_minus_examples.png
+Saved plot for encodecage_minus to plots/encodecage_minus_examples.png
+Saved plot for cage_minus to plots/cage_minus_examples.png

@@ -1,0 +1,86 @@
+Loading model and test data...
+Evaluating on 7355 test sequences...
+Calculating evaluation metrics...
+
+Evaluation Metrics Summary:
+
+cage_plus:
+  Pearson r: nan
+  Spearman r: nan
+  R-squared: nan
+  MSE: nan
+  Poisson NLL: nan
+
+encodecage_plus:
+  Pearson r: 0.1722
+  Spearman r: 0.2404
+  R-squared: -0.0794
+  MSE: 0.0137
+  Poisson NLL: 0.7308
+
+encoderampage_plus:
+  Pearson r: 0.1570
+  Spearman r: 0.2568
+  R-squared: -0.0454
+  MSE: 0.0119
+  Poisson NLL: 0.5242
+
+grocap_plus:
+  Pearson r: 0.1642
+  Spearman r: 0.1463
+  R-squared: -1.1019
+  MSE: 0.2354
+  Poisson NLL: 8.0892
+
+procap_plus:
+  Pearson r: 0.1957
+  Spearman r: 0.3056
+  R-squared: -0.1160
+  MSE: 0.0104
+  Poisson NLL: 0.7565
+
+procap_minus:
+  Pearson r: 0.1744
+  Spearman r: 0.2672
+  R-squared: -0.1198
+  MSE: 0.0102
+  Poisson NLL: 0.7621
+
+grocap_minus:
+  Pearson r: 0.1421
+  Spearman r: 0.1318
+  R-squared: -1.1089
+  MSE: 0.2332
+  Poisson NLL: 8.0631
+
+encoderampage_minus:
+  Pearson r: 0.1316
+  Spearman r: 0.2301
+  R-squared: -0.0382
+  MSE: 0.0120
+  Poisson NLL: 0.4829
+
+encodecage_minus:
+  Pearson r: 0.1596
+  Spearman r: 0.2161
+  R-squared: -0.0707
+  MSE: 0.0119
+  Poisson NLL: 0.6449
+
+cage_minus:
+  Pearson r: 0.0974
+  Spearman r: 0.3013
+  R-squared: -0.0133
+  MSE: 0.0013
+  Poisson NLL: 0.0945
+Saved evaluation metrics to evaluation_metrics.csv
+Saved example plots for cage_plus to eval_plots/cage_plus_examples.png
+Saved example plots for encodecage_plus to eval_plots/encodecage_plus_examples.png
+Saved example plots for encoderampage_plus to eval_plots/encoderampage_plus_examples.png
+Saved example plots for grocap_plus to eval_plots/grocap_plus_examples.png
+Saved example plots for procap_plus to eval_plots/procap_plus_examples.png
+Saved example plots for procap_minus to eval_plots/procap_minus_examples.png
+Saved example plots for grocap_minus to eval_plots/grocap_minus_examples.png
+Saved example plots for encoderampage_minus to eval_plots/encoderampage_minus_examples.png
+Saved example plots for encodecage_minus to eval_plots/encodecage_minus_examples.png
+Saved example plots for cage_minus to eval_plots/cage_minus_examples.png
